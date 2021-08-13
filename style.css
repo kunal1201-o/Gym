@@ -1,0 +1,123 @@
+body{
+  margin:0px;
+  padding:0px;
+  background:url('first.jpg');
+  background-size:100%;
+  color:white;
+}
+.header{
+
+
+overflow: auto;
+}
+.left{
+  margin-top: 10px;
+    float:left;
+
+    width:23%;
+}
+.header .left h1{
+  color:white;
+  font-family: 'WindSong', cursive;
+  text-align: center;
+margin: 0px;
+
+
+;
+}
+.navbar a{
+  text-decoration: none;
+  color:white;
+
+}
+.navbar a:hover{
+  color:yellow;
+}
+.center{
+  float:left;
+  width:50%;
+margin-left: 50px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.navbar li{
+  list-style: none;
+  color:white;
+
+  width: px;
+display: inline-block;
+font-size: 20px;
+
+padding: 8px;
+text-align: center;
+
+}
+.navbar{
+padding-left: 20px;
+
+
+}
+.right{
+  float:left;
+  width:20%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+
+margin-top: 20px;
+}
+.right input{
+width:60%;
+  padding: 4px;
+border-radius: 10px;
+text-align: center;
+
+}
+.right .search .btn{
+  background-color: yellow;
+float:right;
+
+padding:5px;
+border-radius: 4px;
+color:black;
+
+}
+a{
+  text-decoration: none;
+}
+.right .search .btn:hover{
+  background-color: black;
+  color:white;
+  border:2px solid white;
+  text-decoration: none;
+}
+.container{
+  width: 30%;
+      margin-left: 110px;
+      margin-top: 100px;
+      border: 4px solid white;
+      padding: 20px;
+      border-radius: 25px;
+      height:270px;
+      font-family: 'Ubuntu', sans-serif;
+      text-align:center;
+}
+.input{
+  margin:15px;
+  padding:3px;
+  border-radius: 6px;
+  text-align: center;
+}
+.container .btn{
+margin: 20px;
+  padding:px;
+
+  border-radius: 7px;
+  background-color: rgb(0,100,200);
+  color:white;
+text-align: center;
+}
+.container .btn:hover{
+  border:2px solid rgb(0,100,200);
+  background-color: black;
+  color:rgb(0,100,200);
+}
